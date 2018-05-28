@@ -7,11 +7,9 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Run",
-            "program": "${workspaceFolder}/dist/index.js",
-            "outFiles": [
-                "${workspaceFolder}/dist/**/*.js"
-            ]
+            "name": "AarKayCLI",
+            "program": "${workspaceFolder}/packages/aarkay-cli/dist/index.js",
+            "cwd": "${workspaceFolder}"
         }
     ]
 }

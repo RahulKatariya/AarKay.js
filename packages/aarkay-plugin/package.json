@@ -1,0 +1,22 @@
+{
+  "name": "aarkay-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rahul Katariya",
+  "license": "MIT",
+  "dependencies": {
+    "aarkay": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.1.3",
+    "ts-node": "^6.0.5",
+    "tsc-watch": "^1.0.21",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
+  }
+}
